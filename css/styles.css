@@ -106,13 +106,14 @@ body {
   color: var(--active-color);
 }
 /*------------------- HEADER----------------- */
-.header-container {
-  display: flex;
-}
+
 .header {
   padding-top: 24px;
   padding-bottom: 24px;
   border-bottom: 1px solid var(--border-color);
+}
+.header-container {
+  display: flex;
 }
 .header-navigation {
   display: flex;
@@ -123,6 +124,7 @@ body {
 .header-logo-text {
 }
 .header-list {
+  /* gap: 40px; */
 }
 .header-item {
 }
@@ -167,6 +169,8 @@ body {
 .hero {
   text-align: center;
   background-color: var(--background-primary-section-color);
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 .hero-title {
   width: 496px;
@@ -177,7 +181,6 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--hero-color);
-  padding-top: 188px;
 }
 .hero-btn {
   color: var(--hero-color);
@@ -187,7 +190,6 @@ body {
   width: 174px;
   padding: 16px 32px;
   margin-top: 0;
-  margin-bottom: 188px;
 }
 .hero-btn:is(:hover, :focus) {
   background: var(--hover-color);
@@ -215,6 +217,8 @@ body {
 }
 .about-text {
   width: 264px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 /*------------------- PROJECTS----------------- */
 .projects {
@@ -266,7 +270,9 @@ body {
   margin-bottom: 8px;
 }
 .team-text {
+  line-height: 1.5;
   text-align: center;
+  letter-spacing: 0.02em;
 }
 /*------------------- FOOTER----------------- */
 .footer {
@@ -282,10 +288,13 @@ body {
 .footer-text {
   margin-top: 16px;
   width: 264px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--footer-text-color);
 }
 /*------------------- EXAMPLES and GALERY----------------- */
 .examples {
+  padding-top: 96px;
   padding-bottom: 120px;
 }
 .examples-list {
@@ -293,7 +302,6 @@ body {
 }
 
 .examples-item {
-  padding-top: 96px;
   margin-bottom: 72px;
 }
 .examples-item:not(:last-child) {
@@ -304,6 +312,7 @@ body {
   background: var(--background-main-btn-color);
   border: 1px solid var(--border-color);
   border-radius: 4px;
+  padding: 12px 24px;
 }
 
 .examples-btn:is(:hover, :focus) {
@@ -341,4 +350,6 @@ body {
   color: var(--title-text-color);
 }
 .galery-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
