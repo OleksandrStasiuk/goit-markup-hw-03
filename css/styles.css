@@ -213,7 +213,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--title-text-color);
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 .about-text {
   width: 264px;
@@ -225,7 +225,7 @@ body {
   padding-bottom: 120px;
 }
 .projects-title {
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .projects-list {
 }
@@ -241,7 +241,7 @@ body {
   background: var(--background-team-color);
 }
 .team-title {
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .team-list {
   flex-direction: row;
@@ -299,10 +299,13 @@ body {
 }
 .examples-list {
   justify-content: center;
+  margin-bottom: 72px;
 }
+/* .examples-list:not(:last-child) {
+  margin-right: 24px;
+} */
 
 .examples-item {
-  margin-bottom: 72px;
 }
 .examples-item:not(:last-child) {
   margin-right: 24px;
